@@ -1,0 +1,79 @@
+body{
+    background-color: #f7ecde;
+    padding: 50px 0;
+}
+h1{
+font-size: 50px;
+font-weight: 500;
+font-family: Pacifico, cursive;
+line-height: 60px;
+color: rgb(53, 46, 40);
+text-align: center;
+}
+.title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dotted-line{
+    border: none;
+    border-top: 2px dotted black; 
+    margin: 1rem 15rem;
+}
+.title .background{
+    background-color: #ffc107;
+    height: 20px;
+    width: 400px;
+    position: absolute;
+    z-index: -1;
+    top: 33px;
+    transition: 0.5s;
+}
+.title:hover .background{
+    transform: scaleY(2);
+}
+p{
+
+    background-clip: text;
+    color:transparent;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: Righteous, cursive;
+}
+.submit{
+    font-size: 16px;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    color:white;
+    border: none;
+    background-color: #d1512d;
+    border-radius: 10px;
+    padding: 5px 50px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 1rem;
+}
+label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+    font-family: "PT Sans Caption", sans-serif;
+}
+#visit{
+    background-color: #9eb23b;
+}
+#delete{
+    background-color: #eb1d36;
+}
+#visit,#delete{
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem 1.2rem;
+}
